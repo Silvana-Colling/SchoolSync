@@ -1,17 +1,12 @@
-public class Frequencia{ 
-    private int numeroFaltas; 
+public class Frequencia {
 
-    // Construtor 
-    public Frequencia(int numeroFaltas) { 
-        this.numeroFaltas = numeroFaltas; 
-    } 
+    private int numeroFaltas;
 
-    // Getter e Setter 
-    public int getNumeroFaltas() { 
-        return numeroFaltas; 
-    } 
+    public Frequencia(int numeroFaltas) {
+        this.numeroFaltas = numeroFaltas;
+    }
 
-    public void setNumeroFaltas(int numeroFaltas) { 
-        this.numeroFaltas = numeroFaltas; 
-    } 
+    public int getNumeroFaltas() {
+        return numeroFaltas;
+    }
 }
